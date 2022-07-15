@@ -16,6 +16,6 @@ export const defaultProfiles: profileType[] = [
     blog: "https://mayank-chaudhari.web.app",
     bio: "Javascript 정복하기",
     public_repos: 17,
-    public_gists: 1,
+    public_gists: 0,
   },
 ];

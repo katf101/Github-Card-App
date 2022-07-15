@@ -1,8 +1,11 @@
 import React from "react";
 import { profileType } from "../utils";
 import Card from "./Card";
+import { useProfileContext } from "../pages";
 
-const CardList = ({ profiles }: { profiles: profileType[] }) => {
+const CardList = () => {
+  const [profiles] = useProfileContext();
+
   return (
     <div>
       {profiles.map((profile) => (

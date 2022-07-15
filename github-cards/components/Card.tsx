@@ -24,7 +24,7 @@ const Card = ({ profile }: CardPropType) => {
             </a>
           )}
           <code>Public Repositories: {profile.public_repos}</code>
-          <code>Public Gits: {profile.public_gists}</code>
+          <code>Public Gists: {profile.public_gists}</code>
         </p>
       </div>
     </div>
